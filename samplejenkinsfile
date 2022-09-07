@@ -49,7 +49,7 @@ pipeline {
                     inclusionPattern: 'com/iamvickyav/**',
                     changeBuildStatus: true,
                     minimumInstructionCoverage: '30',
-                    maximumInstructionCoverage: '80')
+                    maximumInstructionCoverage: '60')
            }
         }
         stage("Build & Deploy Code") {
